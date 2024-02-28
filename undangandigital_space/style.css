@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SPACE';
+    src: url('SPACE.ttf') format('truetype');
+}
+
+:root {
+    --white: #ffffff;
+    --bg: #082B49;
+}
+
+.hero h4{
+    font-family: 'SPACEMAN';
+    color: aliceblue;
+}
+
+.hero h1{
+    font-family: 'SPACE';
+    color: aliceblue;    
+}
+
+.hero p{
+    font-family: 'SPACEMAN';
+    color: aliceblue;
+}
+
+.hero a{
+    color: #ffffff;
+    background-color: #086D7C;
+}
+
+.hero a:hover{
+    background-color: #ffffff;
+
+    color: #086D7C;
+}
+.hero{
+    min-height: 100vh;
+    background-color: var(--bg);
+}
