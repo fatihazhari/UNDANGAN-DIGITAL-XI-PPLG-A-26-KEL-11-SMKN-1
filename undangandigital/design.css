@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'WickedSeventies';
+  src: url('WickedSeventies.ttf') format('truetype'); /* Adjust the path and file format if necessary */
+
+  font-family: 'Helgoland';
+  src: url('Helgoland.ttf') format('truetype'); /* Adjust the path and file format if necessary */
+
+}
+
+:root{
+  --pink: #f14e95;
+  --bg: #ffffff;
+
+}
+body {
+  font-size: 1.2rem;
+  min-height: 2000px;
+}
+.hero{
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* This makes sure the body takes the full viewport height */
+  background-image: url('back.jpg');
+  background-size: cover; /* This will make the background image cover the entire viewport */
+  background-position: center; /* This will center the background image */
+  /* You can also use other values for background-size such as 'contain' */
+  /* background-size: contain; */
+  min-height: 100vh;
+}
+.hero h1 {
+    font-family: 'WickedSeventies'; /* dApply the custom font to h1 */
+    font-size: 4rem;
+    text-shadow: 0 2px 2px  #FF008A;
+}
+.hero h4{
+  font-family: 'Helgoland';
+  font-size: 2rem;
+  text-shadow: 0.5px 0.5px  #FF008A;
+
+}
+.hero a{
+  color: #ea7aa2;
+  background-color: #ffffff;
+}
+.hero a:hover {
+  color: #ffffff;
+  background-color: #ea7aa2;
+}
+
+
+/* Media QUERY */
+/*laptop*/
+/**/
+/**/
